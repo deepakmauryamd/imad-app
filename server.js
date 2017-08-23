@@ -28,15 +28,19 @@ app.get('/ui/images11.jpg', function (req, res) {
 app.get('/ui/blue.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'blue.jpg'));
 });
+
 app.get('/ui/drinks.gif', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'drinks.gif'));
 });
+
 app.get('/ui/green.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'green.jpg'));
 });
+
 app.get('/ui/lightblue.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'lightblue.jpg'));
 });
+
 app.get('/ui/red.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'red.jpg'));
 });
