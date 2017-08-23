@@ -16,6 +16,10 @@ app.get('/starbuzz', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'starbuzz.html'));
 });
 
+app.get('/mission', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'mission.html'));
+});
+
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
