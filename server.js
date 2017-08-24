@@ -24,6 +24,10 @@ app.get('/elixirs', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'elixirs.html'));
 });
 
+app.get('/direction', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'direction.html'));
+});
+
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
